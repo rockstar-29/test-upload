@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Secure Upload</title>
+</head>
+<body>
+
+<h3>Upload File</h3>
+
+<form
+  action="https://upload-hrbrgaejc5dfg3hh.centralus-01.azurewebsites.net/api/http_trigger1?code=-Rs9sAy7FCnIP02Mz2gnPXjGVnudzTJjZ51v-gnVPVQkAzFug8HcYA=="
+  method="post"
+  enctype="multipart/form-data">
+
+  <input type="file" name="file" required /><br><br>
+
+  <select name="department" required>
+    <option value="finance">Finance</option>
+    <option value="hr">HR</option>
+    <option value="it">IT</option>
+    <option value="vendor">Vendor</option>
+  </select><br><br>
+
+  <button type="submit">Upload</button>
+
+</form>
+
+</body>
+</html>
